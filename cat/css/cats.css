@@ -1,0 +1,23 @@
+#content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.cat img{
+    width: 100%;
+}
+
+@media screen and (max-width: 800px){
+    #content{flex-wrap: wrap;}
+    .cat{
+        width: 43%;
+        margin-top: 20px;
+    }
+}
